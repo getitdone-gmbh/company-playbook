@@ -62,6 +62,10 @@ Get IT Done GmbH
 - [Website-Architektur](./go-to-market/website-architektur.md)
 - [Unsere Services](./go-to-market/services.md)
 
+### 🎨 [`design/`](./design/) – Marken-Tokens & Design-System
+- [Foundations](./design/foundations.md) – geteilte Primitive (Farbe, Typo, Spacing)
+- [Themes](./design/themes.md) – semantische Tokens pro Marke
+
 ### 🔬 [`research/`](./research/) – Marktforschung & Analysen
 ### 🧩 [`templates/`](./templates/) – Vorlagen
 ### 🗂️ [`decisions/`](./decisions/) – Entscheidungsgrundlagen (ADRs)
