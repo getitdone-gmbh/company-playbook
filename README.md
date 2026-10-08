@@ -19,8 +19,12 @@ Get IT Done GmbH
 │   ├── WERK Einsatz – Service- und Einsatzmanagement (in Validierung)
 │   └── weitere vertikale WERK-Produkte
 │
-└── WORK   – Software für IT-Freelancer und kleine IT-Dienstleister
-    └── Workbase – das Betriebssystem für IT-Freelancer
+└── ZERO   · workload.zero, die modulare Business-Suite für Unternehmen, Teams und Professionals
+    ├── backoffice.zero  · Verwaltung, Zeiten, Personal, Abrechnung
+    ├── workstream.zero  · Projekte, Ressourcen, Zusammenarbeit
+    ├── vacancy.zero     · Recruiting und Vermittlung
+    ├── jobsearch.zero   · Profil, CV, Job- und Projektmatching
+    └── coldcall.zero    · Sales-CRM und Kundengewinnung
 ```
 
 **Unser Leitgedanke:** Gemeinsames Unternehmen und gemeinsame Technologie – aber getrennte Märkte, Botschaften und Vertriebssysteme.
@@ -34,7 +38,8 @@ Get IT Done GmbH
 | Get IT Done GmbH | <https://itdone.de> |
 | WERK Agent | <https://werksagent.de> |
 | WERK Cloud | <https://itdone.cloud> |
-| Workbase | <https://workbase.itdone.de> |
+| workload.zero (Suite) | workloadzero.de, bis zur Umstellung <https://workbase.itdone.de> |
+| backoffice.zero · workstream.zero · vacancy.zero · jobsearch.zero · coldcall.zero | jeweils `<name>zero.de` (in Vorbereitung) |
 
 ## Design-Ressourcen (Figma)
 
@@ -57,13 +62,13 @@ Details zum Design-System in [design/README.md](./design/README.md).
 
 ### 🏷️ [`brands/`](./brands/) – Marken
 - [WERK](./brands/werk/) – unsere vertikale Produktmarke für industrielle Arbeit
-- [WORK](./brands/work/) – unsere Produktmarke für selbstständige IT-Arbeit
+- [ZERO](./brands/zero/) · unsere Produktwelt workload.zero für Dienstleistung, Projekt- und Wissensarbeit
 
 ### 📦 [`products/`](./products/) – Produkte
 - [WERK Agent](./products/werk-agent/) – unser Leitprodukt für industrielle Datenanalyse
 - [WERK Cloud](./products/werk-cloud/) – unsere sichere Betriebsplattform für WERK-Produkte
 - [WERK Einsatz](./products/werk-einsatz/) – Service- und Einsatzmanagement (in Validierung)
-- [Workbase](./products/workbase/) – Betriebssystem für IT-Freelancer
+- [workload.zero](./products/workload-zero/) · modulare Business-Suite mit fünf .zero-Produkten
 
 ### 🚀 [`go-to-market/`](./go-to-market/) – Markt & Vertrieb
 - [Markt- und Vertriebslogik](./go-to-market/README.md)

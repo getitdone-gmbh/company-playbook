@@ -8,7 +8,7 @@ Unsere Kernbotschaften auf den drei Ebenen.
 
 **Unsere Kernbotschaft:**
 
-> **Wir entwickeln digitale Produkte und Plattformen für industrielle Unternehmen und IT-Experten.**
+> **Wir entwickeln digitale Produkte und Plattformen für industrielle Unternehmen, Dienstleister und Professionals.**
 
 **Womit wir es belegen:** eigene Produkte · reale Kundenprobleme · Technologiekompetenz · Betriebskompetenz · Branchenverständnis
 
@@ -22,16 +22,28 @@ Unsere Kernbotschaften auf den drei Ebenen.
 
 > **Menschen koordinieren. Produktionsdaten verstehen. Anwendungen und KI sicher betreiben.**
 
-## WORK
+## ZERO (workload.zero)
 
 **Unsere Kernbotschaft:**
 
-> **Software für selbstständige IT-Arbeit.**
+> **Die modulare Business-Suite für Unternehmen, Teams und Professionals.**
 
-**Workbase-Claim:**
+**Markenauftritt:** workload.zero by Get IT Done
 
-> **Projekte, Zeiten, Rechnungen und CV in einer Plattform.**
+**Ergänzende Botschaft:**
 
-Alternative:
+> **Weniger Arbeit rund um die eigentliche Arbeit. Durch gemeinsame Informationen, durchgängige Abläufe und Automatisierung.**
+
+**Produkte:** Jedes Produkt wird über das Problem kommuniziert, das es auf null bringt:
+
+| Produkt | Botschaft (Arbeitsstand) |
+|---|---|
+| backoffice.zero | Verwaltung, Zeiten und Rechnungen, ohne Papierkram. |
+| workstream.zero | Projekte, Ressourcen und Team im Griff. |
+| vacancy.zero | Offene Stellen und Projektbedarfe besetzt. |
+| jobsearch.zero | Ein Profil, der passende CV, die richtigen Projekte. |
+| coldcall.zero | Kunden gewinnen, ohne kalt anzurufen. |
+
+Bewährte Botschaft für Freelancer (weiter nutzbar auf backoffice.zero):
 
 > **Von der ersten Projektstunde bis zur bezahlten Rechnung.**

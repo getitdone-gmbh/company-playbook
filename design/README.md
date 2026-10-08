@@ -51,9 +51,8 @@ Jede Marke ist ein **Theme** (Token-Set) im Token-Repo. Details und Werte in [th
 | Marke / Produkt | Theme | Status |
 |---|---|---|
 | Get IT Done (Dachmarke) | `blue` | live im Frontend |
-| Workbase (WORK) | `workbase` | Theme vorhanden |
+| workload.zero (ZERO) | `workbase` (Umbenennung in `zero` offen) | Theme vorhanden |
 | WERK | — | **noch zu definieren** |
-| WORK (Marke) | offen | **noch zu klären** |
 
 ## Pflege-Regel
 

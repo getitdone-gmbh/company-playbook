@@ -10,7 +10,7 @@ WERK Einsatz hat für uns hohes Potenzial. Wir priorisieren es aber erst nach ze
 
 ## Rolle im Portfolio
 
-WERK Einsatz ist für uns **nicht identisch mit [Workbase](../workbase/)**. Es kann dieselbe technische Basis nutzen, muss aber für industrielle Abläufe neu positioniert, erweitert und vermarktet werden.
+WERK Einsatz ist für uns **nicht identisch mit [workload.zero](../workload-zero/)** (früher Workbase). Es kann dieselbe technische Basis nutzen, muss aber für industrielle Abläufe neu positioniert, erweitert und vermarktet werden.
 
 ## Für wen wir es bauen
 
@@ -66,6 +66,6 @@ Der Markt für Field Service Management ist wettbewerbsintensiv. Deshalb setzen 
 1. zehn bis fünfzehn Interviews mit Serviceleitern durchführen
 2. drei konkrete Prozesse beobachten
 3. Zahlungsbereitschaft und Integrationsanforderungen prüfen
-4. Workbase-Technologie gegen Industrieanforderungen bewerten
+4. workload.zero-Technologie gegen Industrieanforderungen bewerten
 5. Pilot mit einem Maschinen- oder Anlagenbauer durchführen
 6. erst bei nachgewiesenem Bedarf als Produkt ausgründen

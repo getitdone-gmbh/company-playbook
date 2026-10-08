@@ -1,6 +1,6 @@
 # <Produktname>
 
-**Marke:** <WERK | WORK> · **Priorität:** <1–n | in Validierung> · **Website:** <URL>
+**Marke:** <WERK | ZERO> · **Priorität:** <1–n | in Validierung> · **Website:** <URL>
 
 > <Unser Markenversprechen oder Claim in einem Satz>
 

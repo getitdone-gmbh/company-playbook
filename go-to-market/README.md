@@ -6,7 +6,7 @@ Wie wir unsere beiden Produktwelten in den Markt bringen – sowie unsere Positi
 
 | Dokument | Inhalt |
 |---|---|
-| [Marketingpositionierung](./marketing-positionierung.md) | Unsere Kernbotschaften für Get IT Done, WERK und WORK |
+| [Marketingpositionierung](./marketing-positionierung.md) | Unsere Kernbotschaften für Get IT Done, WERK und ZERO (workload.zero) |
 | [Website-Architektur](./website-architektur.md) | Wie wir unsere drei Auftritte strukturieren |
 | [Unsere Services](./services.md) | Unsere produktnahen und produktisierten Dienstleistungen |
 
@@ -14,7 +14,7 @@ Wie wir unsere beiden Produktwelten in den Markt bringen – sowie unsere Positi
 
 ## Zwei getrennte Vertriebswelten
 
-Wir führen WERK und WORK mit **getrennten Marketing-Kennzahlen**.
+Wir führen WERK und ZERO mit **getrennten Marketing-Kennzahlen**.
 
 ### WERK: Enterprise- und Mittelstandsvertrieb
 
@@ -24,10 +24,10 @@ Wir führen WERK und WORK mit **getrennten Marketing-Kennzahlen**.
 
 **Unsere Kennzahlen:** qualifizierte Zielaccounts · Erstgespräche · Daten-Demos · Piloten · Pilot-zu-Vertrag-Quote · Vertragswert · Sales Cycle · Referenzkunden
 
-### WORK: digitales Self-Service-Geschäft
+### ZERO (workload.zero): digitales Self-Service-Geschäft
 
-**So sieht es bei uns aus:** Nutzer und Käufer meist identisch · kurze Entscheidungswege · niedriger Vertragswert · hohe Bedeutung von Aktivierung und Nutzererlebnis · kostenlose Testphase · automatisiertes Onboarding · standardisierter Support
+**So sieht es bei uns aus:** fünf Produkte mit je eigener Landingpage · Solo: Nutzer und Käufer meist identisch · Teams: Onboarding und Rollen · kurze Entscheidungswege · niedriger Vertragswert · hohe Bedeutung von Aktivierung und Nutzererlebnis · kostenlose Testphase · automatisiertes Onboarding · standardisierter Support
 
-**Unsere Kanäle:** SEO · Google Search Ads · Freelancer-Plattformen · Partnerschaften mit Vermittlern · Steuerberater- und Buchhaltungs-Communities · LinkedIn- und YouTube-Inhalte · Empfehlungsprogramme · Templates und kostenlose Tools · Vergleichsseiten
+**Unsere Kanäle:** SEO je Produkt-Domain · Google Search Ads · Freelancer-Plattformen · Partnerschaften mit Vermittlern · Steuerberater- und Buchhaltungs-Communities · LinkedIn- und YouTube-Inhalte · Empfehlungsprogramme · Templates und kostenlose Tools · Vergleichsseiten
 
-**Unsere Kennzahlen:** Website-Traffic · Registrierungen · Aktivierungsrate · Trial-zu-Paid-Quote · Kundenakquisitionskosten · monatlicher Umsatz pro Nutzer · Kündigungsrate · Supportkosten · Referral-Rate
+**Unsere Kennzahlen:** Website-Traffic · Registrierungen · Aktivierungsrate · Trial-zu-Paid-Quote · Kundenakquisitionskosten · monatlicher Umsatz pro Nutzer · Kündigungsrate · Supportkosten · Referral-Rate · Cross-Selling-Rate zwischen den .zero-Produkten

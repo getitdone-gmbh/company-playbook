@@ -6,7 +6,7 @@ Rolle und Potenzial unserer Dienstleistungen. Sie haben bei uns eine **unterstü
 
 **Für WERK:** Prozessanalyse · Produktionsdaten-Workshops · MES-, ERP- und PLS-Integration · Datenarchitektur · KI-Enablement · Cloud- und Sicherheitskonzepte · Managed Operations · Schulungen für Fach- und Führungskräfte
 
-**Für WORK:** nur begrenzt individuelle Dienstleistungen · optional Onboarding für kleine Teams · Migration bestehender Projektdaten · Vorlagen und Automationen
+**Für ZERO (workload.zero):** nur begrenzt individuelle Dienstleistungen · optional Onboarding für Teams · Migration bestehender Projektdaten · Vorlagen und Automationen
 
 ## Wie wir unsere Leistungen positionieren
 

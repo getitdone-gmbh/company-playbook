@@ -8,7 +8,7 @@ So schätzen wir unser Portfolio ein – nach Product-Persona-Fit, Umsatzpotenzi
 |---|---:|---:|---:|---:|---:|
 | **[WERK Agent](../products/werk-agent/)** | sehr hoch | hoch | mittel bis hoch | hoch | 1 |
 | **[WERK Cloud](../products/werk-cloud/)** | hoch als Plattform, mittel als Einzelprodukt | hoch | mittel | mittel bis hoch | 2 |
-| **[WORK Workbase](../products/workbase/)** | hoch | niedrig bis mittel | sehr hoch | mittel bis hoch | 3 |
+| **[ZERO workload.zero](../products/workload-zero/)** | hoch | niedrig bis mittel (Solo), mittel (Teams) | sehr hoch | mittel bis hoch | 3 |
 | **[WERK Einsatz](../products/werk-einsatz/)** | potenziell hoch | mittel bis hoch | hoch | mittel | erst validieren |
 | **[Unsere Services](../go-to-market/services.md)** | hoch | hoch | niedrig | abhängig von Expertise | unterstützend |
 
@@ -60,12 +60,12 @@ Ihren vollen Wert entfalten unsere Produkte im Zusammenspiel. Fünf zentrale Anw
 - WERK Agent liefert einen konkreten fachlichen Anwendungsfall.
 - Wir übernehmen Architektur, Einführung und Schulung.
 
-### 5. Freelancer-Administration vereinfachen
+### 5. Verwaltung rund um Projektarbeit vereinfachen
 
-**Problem:** Ein IT-Freelancer nutzt mehrere Werkzeuge für Projekte, Zeiten, Rechnungen und den CV.
+**Problem:** Freelancer und Dienstleister nutzen mehrere Werkzeuge für Projekte, Zeiten, Rechnungen, Kunden und den CV.
 
 **So lösen wir das:**
-- Workbase verbindet den gesamten Ablauf.
+- workload.zero verbindet den gesamten Ablauf: workstream.zero, backoffice.zero und jobsearch.zero auf einer Datenbasis.
 - Projektinformationen werden nur einmal gepflegt.
 - Timesheets, Rechnungen und CV entstehen aus denselben Daten.
-- Der Freelancer gewinnt Zeit für abrechenbare Arbeit und neue Projekte.
+- Freelancer und Teams gewinnen Zeit für abrechenbare Arbeit und neue Projekte.

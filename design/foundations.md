@@ -51,7 +51,7 @@ Das Fundament entspricht der **shadcn/Tailwind-Palette** (`slate`, `gray`, `zinc
 
 ## Spacing & Radius
 
-Standard-Tailwind-Skala (`0.25rem`-Schritte) und shadcn-Radien. Markenspezifische Abweichungen (z. B. WERK kantiger, WORK weicher) dokumentieren wir bei Bedarf im jeweiligen Theme in [themes.md](./themes.md).
+Standard-Tailwind-Skala (`0.25rem`-Schritte) und shadcn-Radien. Markenspezifische Abweichungen (z. B. WERK kantiger, workload.zero weicher) dokumentieren wir bei Bedarf im jeweiligen Theme in [themes.md](./themes.md).
 
 ## Modi
 

@@ -1,6 +1,6 @@
 # ADR 0001: Wir trennen die Marken WERK und WORK
 
-- **Status:** akzeptiert
+- **Status:** teilweise ersetzt durch [ADR 0002](./0002-workload-zero-ersetzt-work.md) (WORK wird zu ZERO / workload.zero; WERK bleibt gültig)
 - **Betroffene Bereiche:** Markenarchitektur, Produkte, Go-to-Market
 
 ## Kontext

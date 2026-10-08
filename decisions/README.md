@@ -8,4 +8,5 @@ Neue Einträge folgen unserer [ADR-Vorlage](../templates/decision-record.md) und
 
 | Nr. | Titel | Status |
 |---|---|---|
-| [0001](./0001-markenarchitektur-werk-work.md) | Wir trennen die Marken WERK und WORK | akzeptiert |
+| [0001](./0001-markenarchitektur-werk-work.md) | Wir trennen die Marken WERK und WORK | teilweise ersetzt durch 0002 |
+| [0002](./0002-workload-zero-ersetzt-work.md) | ZERO ersetzt WORK, Workbase wird zur Suite workload.zero | akzeptiert |
