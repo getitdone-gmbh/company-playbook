@@ -6,9 +6,20 @@ So beschreiben wir unsere Marken visuell – über **Design-Tokens**: benannte, 
 
 Unsere Tokens leben **nicht** in diesem Playbook, sondern in einem eigenen, aus Figma gesyncten Repository:
 
-**`figma-design-tokens`** – `@alexfriedl/figma-design-tokens` (npm, GitHub Packages)
+**`figma-design-tokens`** – `@getitdone-gmbh/figma-design-tokens` (npm, GitHub Packages)
 
 Dieses Playbook *beschreibt* das System und die Marken-Zuordnung; die konkreten Werte pflegen wir zentral dort. So vermeiden wir zwei konkurrierende Quellen.
+
+### Figma-Quelldateien
+
+Zur Design-System-Kette gehören zwei zentrale Figma-Dateien:
+
+- **Design Tokens** – die Figma-Variablen (Light/Dark), die mit dem Token-Repo synchronisiert werden:
+  <https://www.figma.com/design/j2RxwrgeeDp9MWTEElzKm3/Design-Tokens>
+- **Component Library** („🚧 GetITDone-Basic") – konsumiert das Design-Tokens-File als Library und hält die Komponenten-Specs, die in `component-library-react` umgesetzt werden:
+  <https://www.figma.com/design/bzBnRLfRJNknGg9UYJIHb0/%F0%9F%9A%A7-GetITDone-Basic>
+
+Richtung: Token-**Werte** pflegen wir im Repo (Single Source of Truth) und synchronisieren sie in das Design-Tokens-File; die Component-Library-Datei nutzt dieses File als Bibliothek und ist Vorlage für die Umsetzung im Code.
 
 ### Pipeline
 
@@ -40,9 +51,8 @@ Jede Marke ist ein **Theme** (Token-Set) im Token-Repo. Details und Werte in [th
 | Marke / Produkt | Theme | Status |
 |---|---|---|
 | Get IT Done (Dachmarke) | `blue` | live im Frontend |
-| Workbase (WORK) | `workbase` | Theme vorhanden |
+| workload.zero (ZERO) | `workbase` (Umbenennung in `zero` offen) | Theme vorhanden |
 | WERK | — | **noch zu definieren** |
-| WORK (Marke) | offen | **noch zu klären** |
 
 ## Pflege-Regel
 

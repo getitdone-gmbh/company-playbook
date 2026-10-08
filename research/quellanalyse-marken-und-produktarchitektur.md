@@ -1,5 +1,7 @@
 # Strategische Analyse der Marken- und Produktarchitektur
 
+> **Archiv.** Diese Analyse ist ein ungekürztes Quelldokument aus der Zeit vor [ADR 0002](../decisions/0002-workload-zero-ersetzt-work.md). WORK und Workbase sind inzwischen durch ZERO und workload.zero ersetzt.
+
 ## 1. Verbindliche Markenarchitektur
 
 Die strategische Grundentscheidung steht:

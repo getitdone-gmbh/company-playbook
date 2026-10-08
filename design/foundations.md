@@ -1,6 +1,6 @@
 # Foundations – geteilte Primitive Tokens
 
-Die geteilte Basis aller Marken. **Quelle der Wahrheit:** `figma-tokens/core.json` im Token-Repo (`@alexfriedl/figma-design-tokens`). Die Werte hier sind eine lesbare Zusammenfassung, kein Ersatz.
+Die geteilte Basis aller Marken. **Quelle der Wahrheit:** `figma-tokens/core.json` im Token-Repo (`@getitdone-gmbh/figma-design-tokens`). Die Werte hier sind eine lesbare Zusammenfassung, kein Ersatz.
 
 ## Farbprimitive
 
@@ -51,7 +51,7 @@ Das Fundament entspricht der **shadcn/Tailwind-Palette** (`slate`, `gray`, `zinc
 
 ## Spacing & Radius
 
-Standard-Tailwind-Skala (`0.25rem`-Schritte) und shadcn-Radien. Markenspezifische Abweichungen (z. B. WERK kantiger, WORK weicher) dokumentieren wir bei Bedarf im jeweiligen Theme in [themes.md](./themes.md).
+Standard-Tailwind-Skala (`0.25rem`-Schritte) und shadcn-Radien. Markenspezifische Abweichungen (z. B. WERK kantiger, workload.zero weicher) dokumentieren wir bei Bedarf im jeweiligen Theme in [themes.md](./themes.md).
 
 ## Modi
 

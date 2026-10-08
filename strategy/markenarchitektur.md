@@ -1,6 +1,6 @@
 # Markenarchitektur
 
-Unsere strategische Grundentscheidung steht: Wir führen zwei getrennte Produktmarken – **WERK** und **WORK** – unter einer gemeinsamen Unternehmens- und Technologiebasis.
+Unsere strategische Grundentscheidung steht: Wir führen zwei getrennte Produktwelten, **WERK** und **ZERO**, unter einer gemeinsamen Unternehmens- und Technologiebasis. ZERO hat mit [ADR 0002](../decisions/0002-workload-zero-ersetzt-work.md) die frühere Marke WORK abgelöst.
 
 ```text
 Get IT Done GmbH
@@ -13,10 +13,14 @@ Get IT Done GmbH
 │   ├── WERK Einsatz – potenzielles eigenständiges Industrieprodukt
 │   └── weitere vertikale WERK-Produkte
 │
-└── WORK
-    Software für IT-Freelancer und kleine IT-Dienstleister
+└── ZERO · Dachmarke workload.zero
+    Modulare Business-Suite für Unternehmen, Teams und Professionals
     │
-    └── Workbase
+    ├── backoffice.zero
+    ├── workstream.zero
+    ├── vacancy.zero
+    ├── jobsearch.zero
+    └── coldcall.zero
 ```
 
 Damit trennen wir bewusst zwei unterschiedliche Märkte:
@@ -24,14 +28,14 @@ Damit trennen wir bewusst zwei unterschiedliche Märkte:
 | Marke | Markt | Nutzer | Käufer | Vertriebsmodell |
 |---|---|---|---|---|
 | **WERK** | Fertigung und industrielle Dienstleistungen | Ingenieure, Technologen, Service- und Produktionsmitarbeiter | Werksleitung, COO, Serviceleitung, IT/OT | beratungsnaher B2B-Vertrieb |
-| **WORK** | IT-Freelancing und kleine IT-Dienstleister | Freelancer, Berater und kleine Teams | meist der Nutzer selbst | Self-Service, Product-led Growth, SEO |
+| **ZERO** | Dienstleister, Vermittler, Freelancer, Projektteams, Unternehmen mit Teams | Freelancer, Berater, Projektteams, Recruiter, Vertrieb, Verwaltung, Professionals | Solo: der Nutzer selbst; Teams: Geschäfts- oder Bereichsleitung | Self-Service, Product-led Growth, SEO je Produkt-Landingpage |
 | **Get IT Done** | übergreifender Unternehmensrahmen | Management, Partner und Bestandskunden | Geschäftsführung, IT-Leitung, Fachbereiche | Beratung, Implementierung und Betrieb |
 
-Diese Trennung löst unser früheres Portfolio-Problem: Workbase muss nicht mehr künstlich auf die Fertigungspositionierung einzahlen, und WERK müssen wir nicht so breit formulieren, dass auch Freelancer darunterpassen.
+Diese Trennung löst unser früheres Portfolio-Problem: workload.zero muss nicht künstlich auf die Fertigungspositionierung einzahlen, und WERK müssen wir nicht so breit formulieren, dass auch Dienstleister und Freelancer darunterpassen. Die Grenze verläuft über den Markt: industrielle Arbeit (WERK) gegenüber Dienstleistung, Projekt- und Wissensarbeit (ZERO).
 
 > **Unser Leitgedanke: Gemeinsames Unternehmen und gemeinsame Technologie – aber getrennte Märkte, Botschaften und Vertriebssysteme.**
 
-> Die zugrunde liegende Entscheidung dokumentieren wir in [ADR 0001](../decisions/0001-markenarchitektur-werk-work.md).
+> Die zugrunde liegenden Entscheidungen dokumentieren wir in [ADR 0001](../decisions/0001-markenarchitektur-werk-work.md) und [ADR 0002](../decisions/0002-workload-zero-ersetzt-work.md).
 
 ---
 
@@ -55,12 +59,12 @@ Get IT Done ist unsere Unternehmens-, Kompetenz- und Vertrauensmarke.
 
 **Wie wir kommunizieren:**
 
-> **Wir entwickeln und betreiben digitale Produkte für industrielle Unternehmen und selbstständige IT-Experten.**
+> **Wir entwickeln und betreiben digitale Produkte für industrielle Unternehmen, Dienstleister und Professionals.**
 
 Wir erklären auf der Startseite nicht alle Leistungen gleichrangig. Stattdessen führen wir zu unseren zwei klaren Produktwelten:
 
 - **WERK – für Industrie und Produktion**
-- **WORK – für IT-Freelancer**
+- **workload.zero: für Dienstleister, Teams und Professionals**
 
 ### WERK
 
@@ -82,14 +86,18 @@ Ein Produkt nehmen wir in WERK auf, wenn es mindestens **drei** dieser Kriterien
 4. Es nutzt industrielle Daten oder industrielle Workflows.
 5. Es lässt sich sinnvoll mit mindestens einem anderen WERK-Produkt verbinden.
 
-### WORK
+### ZERO
 
-WORK ist unsere Produktmarke für die selbstständige und projektorientierte IT-Arbeit. Details unter [`brands/work/`](../brands/work/).
+ZERO ist unsere Produktwelt für Dienstleistung, Projekt- und Wissensarbeit. Dachmarke ist **workload.zero**. Details unter [`brands/zero/`](../brands/zero/) und [`products/workload-zero/`](../products/workload-zero/).
 
-> **Unser Markenversprechen: WORK vereinfacht das Geschäft von IT-Freelancern – vom ersten Projekt bis zur bezahlten Rechnung und zum nächsten Auftrag.**
+> **Unser Markenversprechen: workload.zero nimmt die Arbeit rund um die eigentliche Arbeit ab. Durch gemeinsame Informationen, durchgängige Abläufe und Automatisierung.**
 
-**Unser erstes Produkt:**
+**Unsere Produktlogik:** Jedes Produkt trägt die Form `<name>.zero` und hat eine eigene Domain (`<name>zero.de`) und Landingpage.
 
-> **Workbase – das Betriebssystem für IT-Freelancer.**
+- **backoffice.zero:** Verwaltung und Abrechnung
+- **workstream.zero:** Projekte und Ressourcen
+- **vacancy.zero:** Stellen und Projektbedarfe besetzen
+- **jobsearch.zero:** Profil, CV und passende Gelegenheiten
+- **coldcall.zero:** Kunden gewinnen ohne Kaltakquise
 
-Wir vermarkten Workbase nicht als allgemeines Projektmanagement- oder Zeiterfassungstool. Unsere stärkere Positionierung ist die vollständige Abbildung des administrativen Arbeitsalltags eines IT-Freelancers.
+Ein neues Produkt nehmen wir in workload.zero auf, wenn es einen eigenen Arbeitsbereich mit eigener Zielgruppe abdeckt, auf der gemeinsamen Datenbasis arbeitet und mit mindestens einem bestehenden .zero-Produkt durchgängige Abläufe bildet.

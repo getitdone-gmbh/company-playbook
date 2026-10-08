@@ -10,7 +10,7 @@ Unsere Hauptnavigation:
 
 - Unternehmen
 - WERK
-- WORK
+- workload.zero
 - Leistungen
 - Referenzen
 - Kontakt
@@ -38,18 +38,28 @@ Unsere Navigation:
 - Referenzen
 - Demo
 
-## WORK
+## ZERO (workload.zero)
 
-**Website:** Workbase → <https://workbase.itdone.de>
+**Suite-Website:** workload.zero → workloadzero.de (bis zur Umstellung <https://workbase.itdone.de>)
 
-Unsere Navigation:
+**Produkt-Websites:** backoffice.zero → backofficezero.de · workstream.zero → workstreamzero.de · vacancy.zero → vacancyzero.de · jobsearch.zero → jobsearchzero.de · coldcall.zero → coldcallzero.de
 
-- Produkt
-- Funktionen
+Navigation der Suite-Website:
+
+- **Produkte**
+  - backoffice.zero
+  - workstream.zero
+  - vacancy.zero
+  - jobsearch.zero
+  - coldcall.zero
+- **Für wen**
+  - Freelancer und Solos
+  - Agenturen und Dienstleister
+  - Vermittler
+  - Professionals
 - Preise
-- Freelancer-CV
-- E-Rechnung
-- DATEV
 - Ressourcen
 - Login
 - Kostenlos testen
+
+Jede Produkt-Landingpage führt mit dem Problem, das das Produkt auf null bringt, verweist auf die Suite ("part of workload.zero") und hat einen eigenen Testzugang. Themen wie E-Rechnung, DATEV und Freelancer-CV bekommen eigene SEO-Seiten unter dem jeweiligen Produkt.

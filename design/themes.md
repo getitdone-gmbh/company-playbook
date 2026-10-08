@@ -7,9 +7,8 @@ Jede Marke ist ein **Theme** (Token-Set) im Token-Repo. Ein Theme belegt die get
 | Marke / Produkt | Theme | Primary | Neutrals | Status |
 |---|---|---|---|---|
 | Get IT Done | `blue` | `blue.600` `#2563eb` | slate / gray | live im Frontend |
-| Workbase (WORK) | `workbase` | `blue.600` `#2563eb` | slate | Theme vorhanden |
+| workload.zero (ZERO) | `workbase` (Umbenennung in `zero` offen) | `blue.600` `#2563eb` | slate | Theme vorhanden |
 | WERK | – | – | – | **noch zu definieren** |
-| WORK (Marke) | offen | – | – | **noch zu klären** |
 
 ## Get IT Done — Theme `blue`
 
@@ -25,9 +24,9 @@ Unser aktuelles Auftreten (Dachmarke, Frontend).
 | `background.muted` | `#f1f5f9` (`slate.100`) |
 | `error` | `{red.500}` |
 
-## Workbase — Theme `workbase`
+## workload.zero — Theme `workbase`
 
-Eigenes Theme, eng verwandt mit `blue` (gleiche Primärfarbe), Neutrals konsequent auf `slate` referenziert.
+Das bisherige Workbase-Theme ist das Theme von workload.zero und allen .zero-Produkten. Eigenes Theme, eng verwandt mit `blue` (gleiche Primärfarbe), Neutrals konsequent auf `slate` referenziert.
 
 | Semantisches Token | Wert |
 |---|---|
@@ -44,13 +43,14 @@ Eigenes Theme, eng verwandt mit `blue` (gleiche Primärfarbe), Neutrals konseque
 WERK adressiert einen anderen Markt (industriell, seriös, B2B). Wir sollten ein **eigenes Theme `werk`** anlegen, statt `blue` mitzunutzen. Offene Fragen:
 
 - Eigene Primärfarbe, die zu „industrieller Arbeit" passt (z. B. ein technisches Blau/Stahl oder ein Signal-Akzent)?
-- Kantigere Radien / nüchternere Anmutung als WORK?
+- Kantigere Radien / nüchternere Anmutung als workload.zero?
 - Eigene Dark-Mode-Variante für Werkshallen-/Shopfloor-Kontexte?
 
-## WORK — noch zu klären
+## workload.zero — offene Punkte
 
-Zu entscheiden: Bekommt die **Marke WORK** ein eigenes Theme, oder ist das `workbase`-Theme faktisch das WORK-Theme (weil Workbase das erste und tragende WORK-Produkt ist)? Empfehlung: zunächst `workbase` als WORK-Referenz nutzen und erst bei einem zweiten WORK-Produkt aufsplitten.
+- Umbenennung des Token-Sets `workbase` in `zero` im Token-Repo (Breaking Change für konsumierende Apps, daher mit Major-Release).
+- Ob die fünf .zero-Produkte eigene Akzentfarben bekommen oder alle das Suite-Theme teilen. Empfehlung: ein Suite-Theme, Unterscheidung über Produktname und Icon, nicht über Farbe.
 
 ---
 
-**Änderungen an Werten** erfolgen im Token-Repo (`figma-tokens/themes/*`), nicht hier. Neue Themes (`werk`, ggf. `work`) legen wir dort als Token-Set an; dieses Dokument spiegelt die Zuordnung wider.
+**Änderungen an Werten** erfolgen im Token-Repo (`figma-tokens/themes/*`), nicht hier. Neue Themes (`werk`, ggf. `zero`) legen wir dort als Token-Set an; dieses Dokument spiegelt die Zuordnung wider.
