@@ -1,6 +1,6 @@
 # Foundations – geteilte Primitive Tokens
 
-Die geteilte Basis aller Marken. **Quelle der Wahrheit:** `figma-tokens/core.json` im Token-Repo (`@alexfriedl/figma-design-tokens`). Die Werte hier sind eine lesbare Zusammenfassung, kein Ersatz.
+Die geteilte Basis aller Marken. **Quelle der Wahrheit:** `figma-tokens/core.json` im Token-Repo (`@getitdone-gmbh/figma-design-tokens`). Die Werte hier sind eine lesbare Zusammenfassung, kein Ersatz.
 
 ## Farbprimitive
 

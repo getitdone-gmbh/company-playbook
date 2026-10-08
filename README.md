@@ -36,6 +36,15 @@ Get IT Done GmbH
 | WERK Cloud | <https://itdone.cloud> |
 | Workbase | <https://workbase.itdone.de> |
 
+## Design-Ressourcen (Figma)
+
+| Datei | Zweck | Link |
+|---|---|---|
+| Design Tokens | Figma-Variablen (Light/Dark), Sync mit dem Token-Repo | <https://www.figma.com/design/j2RxwrgeeDp9MWTEElzKm3/Design-Tokens> |
+| Component Library („🚧 GetITDone-Basic") | Komponenten-Specs, konsumiert das Token-File | <https://www.figma.com/design/bzBnRLfRJNknGg9UYJIHb0/%F0%9F%9A%A7-GetITDone-Basic> |
+
+Details zum Design-System in [design/README.md](./design/README.md).
+
 ---
 
 ## Inhaltsverzeichnis
@@ -65,6 +74,9 @@ Get IT Done GmbH
 ### 🎨 [`design/`](./design/) – Marken-Tokens & Design-System
 - [Foundations](./design/foundations.md) – geteilte Primitive (Farbe, Typo, Spacing)
 - [Themes](./design/themes.md) – semantische Tokens pro Marke
+
+### 🛠️ [`engineering/`](./engineering/) – Technik-Standards
+- [Bevorzugter Tech-Stack](./engineering/tech-stack.md) – Next.js/Tailwind/shadcn (FE), NestJS/Prisma (BE)
 
 ### 🔬 [`research/`](./research/) – Marktforschung & Analysen
 ### 🧩 [`templates/`](./templates/) – Vorlagen
