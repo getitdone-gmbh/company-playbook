@@ -8,7 +8,7 @@ Hier sammeln wir Marktforschung, Analysen und Validierungsergebnisse, die unsere
 |---|---|---|
 | WERK Einsatz: 10–15 Interviews mit Serviceleitern | offen | [WERK Einsatz](../products/werk-einsatz/) |
 | workload.zero: Preisbereitschaft je Paket (Solo, Pro, Team) | offen | [workload.zero](../products/workload-zero/) |
-| workload.zero: Markenprüfung DPMA/EUIPO/WIPO für Dachmarke und fünf Produktnamen | offen | [ADR 0002](../decisions/0002-workload-zero-ersetzt-work.md) |
+| workload.zero: Markenprüfung DPMA/EUIPO/WIPO für Dachmarke und fünf Produktnamen | Identitätsrecherche erledigt, anwaltliche Prüfung offen | [Markenrecherche](./markenrecherche-workload-zero.md) |
 | WERK Agent: drei priorisierte Produktions-Use-Cases | offen | [WERK Agent](../products/werk-agent/) |
 
 ## Grundlage
