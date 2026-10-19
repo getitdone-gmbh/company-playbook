@@ -1,6 +1,6 @@
 # Markenarchitektur
 
-Unsere strategische Grundentscheidung steht: Wir führen zwei getrennte Produktwelten, **WERK** und **ZERO**, unter einer gemeinsamen Unternehmens- und Technologiebasis. ZERO hat mit [ADR 0002](../decisions/0002-workload-zero-ersetzt-work.md) die frühere Marke WORK abgelöst.
+Unsere strategische Grundentscheidung steht: Wir führen drei getrennte Produktwelten, **WERK**, **ZERO** und **KETTE**, unter einer gemeinsamen Unternehmens- und Technologiebasis. ZERO hat mit [ADR 0002](../decisions/0002-workload-zero-ersetzt-work.md) die frühere Marke WORK abgelöst. KETTE ist mit [ADR 0003](../decisions/0003-kette-eigene-marke.md) als eigene Marke dazugekommen, damit erweitern wir unsere Produktpalette.
 
 ```text
 Get IT Done GmbH
@@ -13,48 +13,46 @@ Get IT Done GmbH
 │   ├── WERK Einsatz – potenzielles eigenständiges Industrieprodukt
 │   └── weitere vertikale WERK-Produkte
 │
-└── ZERO · Dachmarke workload.zero
-    Modulare Business-Suite für Unternehmen, Teams und Professionals
-    │
-    ├── backoffice.zero
-    ├── workstream.zero
-    ├── vacancy.zero
-    ├── jobsearch.zero
-    └── coldcall.zero
-```
-
-**Vorschlag ([ADR 0003](../decisions/0003-die-kette-als-fundament.md), Status vorgeschlagen):** Unter Get IT Done kommt neben WERK und ZERO eine Ebene **Fundament** dazu. Sie ist keine dritte Produktwelt, sondern trägt geteilte Infrastruktur, die wir auch eigenständig verkaufen. Heute liegt dort nur **Die Kette**.
-
-```text
-Get IT Done GmbH
-│
-├── WERK
 ├── ZERO · Dachmarke workload.zero
+│   Modulare Business-Suite für Unternehmen, Teams und Professionals
+│   │
+│   ├── backoffice.zero
+│   ├── workstream.zero
+│   ├── vacancy.zero
+│   ├── jobsearch.zero
+│   └── coldcall.zero
 │
-└── Fundament (Vorschlag)
-    └── Die Kette
-        Design-System-Infrastruktur, verkettet von Agenten
-        Basis von workload.zero, eigenständig als Paket und Überführung verkauft
+└── KETTE
+    Design-System-Infrastruktur, verkettet von Agenten
+    │
+    ├── Die Kette            komplette Design-System-Infrastruktur (eine Person / Team)
+    ├── Agenten-Pack
+    ├── Design-Review-Pack
+    ├── Überführung          Dienstleistung, auf Anfrage
+    ├── öffentliche Storybooks und Prototyp als Schaufenster
+    └── weitere KETTE-Produkte
 ```
 
-Damit trennen wir bewusst zwei unterschiedliche Märkte:
+ZERO läuft auf KETTE: workload.zero und alle .zero-Produkte bauen auf der Kette auf und dienen KETTE als Referenz und Beweis.
+
+Damit trennen wir bewusst drei unterschiedliche Märkte:
 
 | Marke | Markt | Nutzer | Käufer | Vertriebsmodell |
 |---|---|---|---|---|
 | **WERK** | Fertigung und industrielle Dienstleistungen | Ingenieure, Technologen, Service- und Produktionsmitarbeiter | Werksleitung, COO, Serviceleitung, IT/OT | beratungsnaher B2B-Vertrieb |
 | **ZERO** | Dienstleister, Vermittler, Freelancer, Projektteams, Unternehmen mit Teams | Freelancer, Berater, Projektteams, Recruiter, Vertrieb, Verwaltung, Professionals | Solo: der Nutzer selbst; Teams: Geschäfts- oder Bereichsleitung | Self-Service, Product-led Growth, SEO je Produkt-Landingpage |
-| **Die Kette** (Fundament, Vorschlag) | Entwickler, Produktteams und Agenturen, die selbst Oberflächen bauen | Entwickler mit Claude Code, Freelancer, Designer in Produktteams | Einzelne: der Nutzer selbst; Teams: CTO oder Lead Frontend; Agenturen: Geschäftsführung | Self-Service mit Warteliste, Überführung als Dienstleistung auf Anfrage |
+| **KETTE** | Entwickler, Produktteams, Agenturen und Firmen mit bestehendem Design System | Entwickler mit Claude Code, Freelancer, Designer in Produktteams | Einzelne: der Nutzer selbst; Teams: CTO oder Lead Frontend; Agenturen: Geschäftsführung | Self-Service mit Warteliste, Überführung als Dienstleistung auf Anfrage |
 | **Get IT Done** | übergreifender Unternehmensrahmen | Management, Partner und Bestandskunden | Geschäftsführung, IT-Leitung, Fachbereiche | Beratung, Implementierung und Betrieb |
 
-Diese Trennung löst unser früheres Portfolio-Problem: workload.zero muss nicht künstlich auf die Fertigungspositionierung einzahlen, und WERK müssen wir nicht so breit formulieren, dass auch Dienstleister und Freelancer darunterpassen. Die Grenze verläuft über den Markt: industrielle Arbeit (WERK) gegenüber Dienstleistung, Projekt- und Wissensarbeit (ZERO).
+Diese Trennung löst unser früheres Portfolio-Problem: workload.zero muss nicht künstlich auf die Fertigungspositionierung einzahlen, und WERK müssen wir nicht so breit formulieren, dass auch Dienstleister und Freelancer darunterpassen. Die Grenze verläuft über den Markt: industrielle Arbeit (WERK), Dienstleistung, Projekt- und Wissensarbeit (ZERO) und Menschen, die selbst Oberflächen bauen oder ein Design System pflegen (KETTE).
 
 > **Unser Leitgedanke: Gemeinsames Unternehmen und gemeinsame Technologie – aber getrennte Märkte, Botschaften und Vertriebssysteme.**
 
-> Die zugrunde liegenden Entscheidungen dokumentieren wir in [ADR 0001](../decisions/0001-markenarchitektur-werk-work.md) und [ADR 0002](../decisions/0002-workload-zero-ersetzt-work.md).
+> Die zugrunde liegenden Entscheidungen dokumentieren wir in [ADR 0001](../decisions/0001-markenarchitektur-werk-work.md), [ADR 0002](../decisions/0002-workload-zero-ersetzt-work.md) und [ADR 0003](../decisions/0003-kette-eigene-marke.md).
 
 ---
 
-## Die Aufgaben unserer drei Markenebenen
+## Die Aufgaben unserer Markenebenen
 
 ### Get IT Done GmbH
 
@@ -76,10 +74,11 @@ Get IT Done ist unsere Unternehmens-, Kompetenz- und Vertrauensmarke.
 
 > **Wir entwickeln und betreiben digitale Produkte für industrielle Unternehmen, Dienstleister und Professionals.**
 
-Wir erklären auf der Startseite nicht alle Leistungen gleichrangig. Stattdessen führen wir zu unseren zwei klaren Produktwelten:
+Wir erklären auf der Startseite nicht alle Leistungen gleichrangig. Stattdessen führen wir zu unseren drei klaren Produktwelten:
 
 - **WERK – für Industrie und Produktion**
 - **workload.zero: für Dienstleister, Teams und Professionals**
+- **KETTE: für alle, die Oberflächen bauen und ein Design System pflegen**
 
 ### WERK
 
@@ -117,14 +116,21 @@ ZERO ist unsere Produktwelt für Dienstleistung, Projekt- und Wissensarbeit. Dac
 
 Ein neues Produkt nehmen wir in workload.zero auf, wenn es einen eigenen Arbeitsbereich mit eigener Zielgruppe abdeckt, auf der gemeinsamen Datenbasis arbeitet und mit mindestens einem bestehenden .zero-Produkt durchgängige Abläufe bildet.
 
-### Fundament: Die Kette (Vorschlag)
+### KETTE
 
-Die Kette ist unsere Design-System-Infrastruktur: Prototyp → Tokens → Figma → Komponenten → Fachkomponenten → Seitenvorlagen → Apps, gepflegt und geprüft von Agenten. Details unter [`products/die-kette/`](../products/die-kette/).
+KETTE ist unsere Produktwelt für Design-System-Infrastruktur: Prototyp → Tokens → Figma → Komponenten → Fachkomponenten → Seitenvorlagen → Apps, gepflegt und geprüft von Agenten. Details unter [`brands/kette/`](../brands/kette/) und [`products/die-kette/`](../products/die-kette/).
 
 > **Deine Design-System-Infrastruktur. Verkettet von Agenten.**
 
-**Warum ein Fundament und keine Produktwelt:** Die Kette trägt workload.zero technisch und wird zugleich an einen eigenen Markt verkauft (Entwickler, Produktteams, Agenturen). Für eine eigene Dachmarke ist sie heute ein Produkt zu wenig, unter WERK oder ZERO würde sie deren Botschaften verwässern. Markenauftritt: **Die Kette by Get IT Done**.
+**Unsere Produktlogik:**
 
-**Abgrenzung:** workload.zero verkauft eine Business-Suite, Die Kette verkauft die Infrastruktur, mit der man solche Apps baut. WERK bleibt unberührt.
+- **Die Kette:** die komplette Infrastruktur, für eine Person oder ein Team
+- **Agenten-Pack** und **Design-Review-Pack:** kleinere Einstiege
+- **Überführung:** bestehende Design Systems an Die Kette hängen, als Dienstleistung auf Anfrage
+- **Schaufenster:** öffentliche Storybooks und Prototyp als nachprüfbarer Beleg
 
-Ob wir diese Einordnung übernehmen, ist offen. Die Entscheidung trifft Alex über [ADR 0003](../decisions/0003-die-kette-als-fundament.md).
+**Schreibweise:** Marke **KETTE** in Versalien wie WERK und ZERO, Produktname **Die Kette**.
+
+**Verhältnis zu ZERO:** ZERO läuft auf KETTE und dient als Referenz und Beweis. workload.zero verkauft eine Business-Suite, KETTE verkauft die Infrastruktur, mit der man solche Apps baut. WERK bleibt unberührt.
+
+Ein Produkt nehmen wir in KETTE auf, wenn es mindestens drei der Kriterien aus [`brands/kette/`](../brands/kette/) erfüllt.

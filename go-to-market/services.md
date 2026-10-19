@@ -8,7 +8,7 @@ Rolle und Potenzial unserer Dienstleistungen. Sie haben bei uns eine **unterstü
 
 **Für ZERO (workload.zero):** nur begrenzt individuelle Dienstleistungen · optional Onboarding für Teams · Migration bestehender Projektdaten · Vorlagen und Automationen
 
-**Für Die Kette (Fundament, Vorschlag ADR 0003):** Überführung bestehender Design Systems in Die Kette · laufender Betrieb mit Gates auf Wunsch monatlich
+**Für KETTE (Die Kette):** Überführung bestehender Design Systems in Die Kette · laufender Betrieb mit Gates auf Wunsch monatlich
 
 ## Wie wir unsere Leistungen positionieren
 
@@ -43,4 +43,4 @@ bestehendes Design System statt Neubau · sechs Stufen: Bestandsaufnahme, Tokens
 
 **Preis:** auf Anfrage. Wir starten immer mit der Bestandsaufnahme, sie ist einzeln buchbar. Danach nennen wir einen Festpreis für die Überführung, der Betrieb ist monatlich buchbar.
 
-**Rolle:** Die Überführung ist der einzige Weg zur Kette mit Personenzeit. Das Paket selbst verkaufen wir ohne persönlichen Support. Details auf <https://kette.itdone.de/ueberfuehrung> und in [products/die-kette](../products/die-kette/).
+**Rolle:** Die Überführung ist das Service-Produkt der Marke KETTE und der einzige Weg zur Kette mit Personenzeit. Das Paket selbst verkaufen wir ohne persönlichen Support. Details auf <https://kette.itdone.de/ueberfuehrung> und in [products/die-kette](../products/die-kette/).

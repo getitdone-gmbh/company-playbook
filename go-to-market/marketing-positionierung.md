@@ -1,6 +1,6 @@
 # Marketingpositionierung
 
-Unsere Kernbotschaften auf den drei Ebenen.
+Unsere Kernbotschaften für Get IT Done und unsere drei Marken.
 
 ## Get IT Done
 
@@ -48,15 +48,15 @@ Bewährte Botschaft für Freelancer (weiter nutzbar auf backoffice.zero):
 
 > **Von der ersten Projektstunde bis zur bezahlten Rechnung.**
 
-## Die Kette (Fundament, Vorschlag)
+## KETTE (Die Kette)
 
-Einordnung als Vorschlag in [ADR 0003](../decisions/0003-die-kette-als-fundament.md).
+Eigene Marke seit [ADR 0003](../decisions/0003-kette-eigene-marke.md). Details in [`brands/kette/`](../brands/kette/).
 
 **Unsere Kernbotschaft:**
 
 > **Deine Design-System-Infrastruktur. Verkettet von Agenten.**
 
-**Markenauftritt:** Die Kette by Get IT Done. "Die Kette" bleibt auch in englischen Texten unübersetzt.
+**Markenauftritt:** Marke **KETTE** in Versalien wie WERK und ZERO, Produktname **Die Kette**. Beides bleibt auch in englischen Texten unübersetzt. Absender Get IT Done.
 
 **Ergänzende Botschaft:**
 
@@ -68,11 +68,14 @@ Einordnung als Vorschlag in [ADR 0003](../decisions/0003-die-kette-als-fundament
 
 **Womit wir es belegen:** gezählte Zahlen aus unseren Repos (Stand und Quelle immer dazu), öffentliche Storybooks, ein öffentlicher Prototyp, offen benannte Audit-Befunde. Keine erfundenen Kundenstimmen, keine Bewertungen, solange es keine gibt.
 
+**Referenz:** ZERO läuft auf KETTE. workload.zero ist unser laufender Beweis, dass die Kette in einer echten Suite trägt.
+
 **Ansprache:** "du" für Einzelne auf kette.itdone.de, "ihr" für Firmen auf der Seite zur Überführung.
 
 | Zielgruppe | Botschaft (Arbeitsstand) |
 |---|---|
 | Entwickler mit Claude Code | Ein Loop mit unabhängigen Gates, damit du nicht das einzige Gate bist. |
+| Einsteiger | Erst die Regeln oder die Agenten, später die ganze Kette (Design-Review-Pack, Agenten-Pack). |
 | Produktteams und CTOs | Fachkomponenten und Seitenvorlagen mit allen Zuständen. Ihr schließt nur eure Business-Logik an. |
 | Designer im Produktteam | Figma und Code aus einer Quelle, mit gleichen Namen an jeder Station. |
 | Agenturen | Themes statt Neubau je Kundenmarke. |

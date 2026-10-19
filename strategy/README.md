@@ -6,7 +6,7 @@ Unsere strategischen Grundlagen: Markenarchitektur, Geschäftsmodell, Portfolio 
 
 | Dokument | Inhalt |
 |---|---|
-| [Markenarchitektur](./markenarchitektur.md) | Warum wir WERK und ZERO trennen und welche Aufgaben unsere drei Markenebenen haben |
+| [Markenarchitektur](./markenarchitektur.md) | Warum wir WERK, ZERO und KETTE trennen und welche Aufgaben unsere Markenebenen haben |
 | [Geschäftsmodell](./geschaeftsmodell.md) | Wie wir Beratung, Produktentwicklung und Betrieb zu einem wiederholbaren Modell verbinden |
 | [Portfolio](./portfolio-bewertung.md) | Wie wir unser Portfolio einschätzen und die Produkte im Use-Case zusammenspielen lassen |
 | [Roadmap & Priorisierung](./roadmap.md) | Unser Handlungsplan in fünf Phasen, unsere Prioritäten und das Gesamtbild |
@@ -20,5 +20,6 @@ Die Namensfindung ist für uns abgeschlossen – jetzt zählt die Priorisierung.
 1. **WERK Agent** verkaufen und validieren
 2. **WERK Cloud** als sichere Betriebsplattform etablieren
 3. **workload.zero** als modulare Suite mit fünf Produkten digital skalieren
-4. **WERK Einsatz** erst nach belastbarer Marktvalidierung entwickeln
-5. **Unsere Services** konsequent an den Produkten ausrichten
+4. **KETTE** als eigenständiges Self-Service-Geschäft einführen, mit ZERO als Referenz
+5. **WERK Einsatz** erst nach belastbarer Marktvalidierung entwickeln
+6. **Unsere Services** konsequent an den Produkten ausrichten

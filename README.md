@@ -19,26 +19,25 @@ Get IT Done GmbH
 │   ├── WERK Einsatz – Service- und Einsatzmanagement (in Validierung)
 │   └── weitere vertikale WERK-Produkte
 │
-└── ZERO   · workload.zero, die modulare Business-Suite für Unternehmen, Teams und Professionals
-    ├── backoffice.zero  · Verwaltung, Zeiten, Personal, Abrechnung
-    ├── workstream.zero  · Projekte, Ressourcen, Zusammenarbeit
-    ├── vacancy.zero     · Recruiting und Vermittlung
-    ├── jobsearch.zero   · Profil, CV, Job- und Projektmatching
-    └── coldcall.zero    · Sales-CRM und Kundengewinnung
-```
-
-**Vorschlag ([ADR 0003](./decisions/0003-die-kette-als-fundament.md), noch nicht entschieden):** Neben WERK und ZERO führen wir eine Ebene **Fundament** direkt unter Get IT Done. Dort liegt **Die Kette**, unsere Design-System-Infrastruktur. Sie trägt workload.zero und wird zugleich eigenständig verkauft.
-
-```text
-Get IT Done GmbH
+├── ZERO   · workload.zero, die modulare Business-Suite für Unternehmen, Teams und Professionals
+│   ├── backoffice.zero  · Verwaltung, Zeiten, Personal, Abrechnung
+│   ├── workstream.zero  · Projekte, Ressourcen, Zusammenarbeit
+│   ├── vacancy.zero     · Recruiting und Vermittlung
+│   ├── jobsearch.zero   · Profil, CV, Job- und Projektmatching
+│   └── coldcall.zero    · Sales-CRM und Kundengewinnung
 │
-├── WERK
-├── ZERO
-└── Fundament (Vorschlag)
-    └── Die Kette · Design-System-Infrastruktur, verkettet von Agenten
+└── KETTE  · Design-System-Infrastruktur, verkettet von Agenten
+    ├── Die Kette           · komplette Design-System-Infrastruktur (eine Person / Team)
+    ├── Agenten-Pack        · Agenten, Skills und Regeln der Kette
+    ├── Design-Review-Pack  · Design-Regeln für unabhängige Reviews
+    ├── Überführung         · bestehendes Design System überführen (Dienstleistung, auf Anfrage)
+    ├── Schaufenster        · öffentliche Storybooks und Prototyp
+    └── weitere KETTE-Produkte
 ```
 
-**Unser Leitgedanke:** Gemeinsames Unternehmen und gemeinsame Technologie – aber getrennte Märkte, Botschaften und Vertriebssysteme.
+KETTE ist seit [ADR 0003](./decisions/0003-kette-eigene-marke.md) eigene Marke. ZERO läuft auf KETTE und dient als Referenz und Beweis.
+
+**Unser Leitgedanke:** Gemeinsames Unternehmen und gemeinsame Technologie – aber getrennte Märkte, Botschaften und Vertriebssysteme. Für jede unserer drei Marken.
 
 ---
 
@@ -51,7 +50,7 @@ Get IT Done GmbH
 | WERK Cloud | <https://itdone.cloud> |
 | workload.zero (Suite) | workloadzero.de, bis zur Umstellung <https://workbase.itdone.de> |
 | backoffice.zero · workstream.zero · vacancy.zero · jobsearch.zero · coldcall.zero | jeweils `<name>zero.de` (in Vorbereitung) |
-| Die Kette | <https://kette.itdone.de>, Überführung unter <https://kette.itdone.de/ueberfuehrung> |
+| KETTE · Die Kette | <https://kette.itdone.de>, Überführung unter <https://kette.itdone.de/ueberfuehrung> |
 
 ## Design-Ressourcen (Figma)
 
@@ -60,7 +59,7 @@ Get IT Done GmbH
 | Design Tokens | Figma-Variablen (Light/Dark), Sync mit dem Token-Repo | <https://www.figma.com/design/j2RxwrgeeDp9MWTEElzKm3/Design-Tokens> |
 | Component Library („🚧 GetITDone-Basic") | Komponenten-Specs, konsumiert das Token-File | <https://www.figma.com/design/bzBnRLfRJNknGg9UYJIHb0/%F0%9F%9A%A7-GetITDone-Basic> |
 
-Öffentliche Storybooks und Prototyp der Kette: [components.itdone.de](https://components.itdone.de) (Komponenten), [zero.itdone.de](https://zero.itdone.de) (Fachkomponenten), [zero-pages.itdone.de](https://zero-pages.itdone.de) (Seitenvorlagen), [zero-design.itdone.de](https://zero-design.itdone.de) (Prototyp workload.zero).
+Öffentliche Storybooks und Prototyp von KETTE: [components.itdone.de](https://components.itdone.de) (Komponenten), [zero.itdone.de](https://zero.itdone.de) (Fachkomponenten), [zero-pages.itdone.de](https://zero-pages.itdone.de) (Seitenvorlagen), [zero-design.itdone.de](https://zero-design.itdone.de) (Prototyp workload.zero).
 
 Details zum Design-System in [design/README.md](./design/README.md).
 
@@ -77,13 +76,14 @@ Details zum Design-System in [design/README.md](./design/README.md).
 ### 🏷️ [`brands/`](./brands/) – Marken
 - [WERK](./brands/werk/) – unsere vertikale Produktmarke für industrielle Arbeit
 - [ZERO](./brands/zero/) · unsere Produktwelt workload.zero für Dienstleistung, Projekt- und Wissensarbeit
+- [KETTE](./brands/kette/) · unsere Produktwelt für Design-System-Infrastruktur
 
 ### 📦 [`products/`](./products/) – Produkte
 - [WERK Agent](./products/werk-agent/) – unser Leitprodukt für industrielle Datenanalyse
 - [WERK Cloud](./products/werk-cloud/) – unsere sichere Betriebsplattform für WERK-Produkte
 - [WERK Einsatz](./products/werk-einsatz/) – Service- und Einsatzmanagement (in Validierung)
 - [workload.zero](./products/workload-zero/) · modulare Business-Suite mit fünf .zero-Produkten
-- [Die Kette](./products/die-kette/) · Design-System-Infrastruktur, verkettet von Agenten (Einordnung vorgeschlagen)
+- [Die Kette](./products/die-kette/) · Design-System-Infrastruktur, verkettet von Agenten (Marke KETTE)
 
 ### 🚀 [`go-to-market/`](./go-to-market/) – Markt & Vertrieb
 - [Markt- und Vertriebslogik](./go-to-market/README.md)
