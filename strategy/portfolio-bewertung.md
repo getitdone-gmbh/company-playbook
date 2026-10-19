@@ -10,9 +10,12 @@ So schätzen wir unser Portfolio ein – nach Product-Persona-Fit, Umsatzpotenzi
 | **[WERK Cloud](../products/werk-cloud/)** | hoch als Plattform, mittel als Einzelprodukt | hoch | mittel | mittel bis hoch | 2 |
 | **[ZERO workload.zero](../products/workload-zero/)** | hoch | niedrig bis mittel (Solo), mittel (Teams) | sehr hoch | mittel bis hoch | 3 |
 | **[WERK Einsatz](../products/werk-einsatz/)** | potenziell hoch | mittel bis hoch | hoch | mittel | erst validieren |
+| **[Die Kette](../products/die-kette/)** (Vorschlag) | hoch bei Teams mit Claude Code, mittel bei Einzelnen | niedrig (Einzelne), mittel (Teams), hoch (Überführung) | sehr hoch als Paket, niedrig als Überführung | hoch | Einführung, Verkaufsstart 01.11.2026 |
 | **[Unsere Services](../go-to-market/services.md)** | hoch | hoch | niedrig | abhängig von Expertise | unterstützend |
 
 Die Details je Angebot beschreiben wir in den jeweiligen Produktordnern.
+
+Die Zeile zu Die Kette ist ein Vorschlag ohne Marktbeleg, es gibt noch keine Verkäufe. Ihre Einordnung als Fundament unter Get IT Done steht in [ADR 0003](../decisions/0003-die-kette-als-fundament.md) zur Entscheidung.
 
 ---
 
@@ -69,3 +72,13 @@ Ihren vollen Wert entfalten unsere Produkte im Zusammenspiel. Fünf zentrale Anw
 - Projektinformationen werden nur einmal gepflegt.
 - Timesheets, Rechnungen und CV entstehen aus denselben Daten.
 - Freelancer und Teams gewinnen Zeit für abrechenbare Arbeit und neue Projekte.
+
+### 6. Business-Apps konsistent und geprüft bauen (Vorschlag)
+
+**Problem:** Teams bauen mit KI schnell Oberflächen, aber jede sieht anders aus. Figma und Code laufen auseinander, und keiner prüft unabhängig.
+
+**So lösen wir das:**
+- Die Kette liefert Tokens, Figma-Dateien, Komponenten, Fachkomponenten und Seitenvorlagen aus einer Quelle.
+- Agenten führen jede Änderung durch einen Loop mit unabhängigen Prüfungen.
+- Wer schon ein Design System hat, bekommt eine Überführung statt eines Neubaus.
+- workload.zero ist der laufende Beleg: Die Suite und ihre Landingpages bauen auf der Kette.
