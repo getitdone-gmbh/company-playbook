@@ -23,12 +23,27 @@ Get IT Done GmbH
     └── coldcall.zero
 ```
 
+**Vorschlag ([ADR 0003](../decisions/0003-die-kette-als-fundament.md), Status vorgeschlagen):** Unter Get IT Done kommt neben WERK und ZERO eine Ebene **Fundament** dazu. Sie ist keine dritte Produktwelt, sondern trägt geteilte Infrastruktur, die wir auch eigenständig verkaufen. Heute liegt dort nur **Die Kette**.
+
+```text
+Get IT Done GmbH
+│
+├── WERK
+├── ZERO · Dachmarke workload.zero
+│
+└── Fundament (Vorschlag)
+    └── Die Kette
+        Design-System-Infrastruktur, verkettet von Agenten
+        Basis von workload.zero, eigenständig als Paket und Überführung verkauft
+```
+
 Damit trennen wir bewusst zwei unterschiedliche Märkte:
 
 | Marke | Markt | Nutzer | Käufer | Vertriebsmodell |
 |---|---|---|---|---|
 | **WERK** | Fertigung und industrielle Dienstleistungen | Ingenieure, Technologen, Service- und Produktionsmitarbeiter | Werksleitung, COO, Serviceleitung, IT/OT | beratungsnaher B2B-Vertrieb |
 | **ZERO** | Dienstleister, Vermittler, Freelancer, Projektteams, Unternehmen mit Teams | Freelancer, Berater, Projektteams, Recruiter, Vertrieb, Verwaltung, Professionals | Solo: der Nutzer selbst; Teams: Geschäfts- oder Bereichsleitung | Self-Service, Product-led Growth, SEO je Produkt-Landingpage |
+| **Die Kette** (Fundament, Vorschlag) | Entwickler, Produktteams und Agenturen, die selbst Oberflächen bauen | Entwickler mit Claude Code, Freelancer, Designer in Produktteams | Einzelne: der Nutzer selbst; Teams: CTO oder Lead Frontend; Agenturen: Geschäftsführung | Self-Service mit Warteliste, Überführung als Dienstleistung auf Anfrage |
 | **Get IT Done** | übergreifender Unternehmensrahmen | Management, Partner und Bestandskunden | Geschäftsführung, IT-Leitung, Fachbereiche | Beratung, Implementierung und Betrieb |
 
 Diese Trennung löst unser früheres Portfolio-Problem: workload.zero muss nicht künstlich auf die Fertigungspositionierung einzahlen, und WERK müssen wir nicht so breit formulieren, dass auch Dienstleister und Freelancer darunterpassen. Die Grenze verläuft über den Markt: industrielle Arbeit (WERK) gegenüber Dienstleistung, Projekt- und Wissensarbeit (ZERO).
@@ -101,3 +116,15 @@ ZERO ist unsere Produktwelt für Dienstleistung, Projekt- und Wissensarbeit. Dac
 - **coldcall.zero:** Kunden gewinnen ohne Kaltakquise
 
 Ein neues Produkt nehmen wir in workload.zero auf, wenn es einen eigenen Arbeitsbereich mit eigener Zielgruppe abdeckt, auf der gemeinsamen Datenbasis arbeitet und mit mindestens einem bestehenden .zero-Produkt durchgängige Abläufe bildet.
+
+### Fundament: Die Kette (Vorschlag)
+
+Die Kette ist unsere Design-System-Infrastruktur: Prototyp → Tokens → Figma → Komponenten → Fachkomponenten → Seitenvorlagen → Apps, gepflegt und geprüft von Agenten. Details unter [`products/die-kette/`](../products/die-kette/).
+
+> **Deine Design-System-Infrastruktur. Verkettet von Agenten.**
+
+**Warum ein Fundament und keine Produktwelt:** Die Kette trägt workload.zero technisch und wird zugleich an einen eigenen Markt verkauft (Entwickler, Produktteams, Agenturen). Für eine eigene Dachmarke ist sie heute ein Produkt zu wenig, unter WERK oder ZERO würde sie deren Botschaften verwässern. Markenauftritt: **Die Kette by Get IT Done**.
+
+**Abgrenzung:** workload.zero verkauft eine Business-Suite, Die Kette verkauft die Infrastruktur, mit der man solche Apps baut. WERK bleibt unberührt.
+
+Ob wir diese Einordnung übernehmen, ist offen. Die Entscheidung trifft Alex über [ADR 0003](../decisions/0003-die-kette-als-fundament.md).

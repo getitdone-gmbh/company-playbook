@@ -47,3 +47,35 @@ Unsere Kernbotschaften auf den drei Ebenen.
 Bewährte Botschaft für Freelancer (weiter nutzbar auf backoffice.zero):
 
 > **Von der ersten Projektstunde bis zur bezahlten Rechnung.**
+
+## Die Kette (Fundament, Vorschlag)
+
+Einordnung als Vorschlag in [ADR 0003](../decisions/0003-die-kette-als-fundament.md).
+
+**Unsere Kernbotschaft:**
+
+> **Deine Design-System-Infrastruktur. Verkettet von Agenten.**
+
+**Markenauftritt:** Die Kette by Get IT Done. "Die Kette" bleibt auch in englischen Texten unübersetzt.
+
+**Ergänzende Botschaft:**
+
+> **Vom Prototyp bis zur App fließt jede Änderung in eine Richtung, geprüft an jeder Station.**
+
+**Was wir verkaufen:** die Infrastruktur und die Verbindung der Stationen, gepflegt von Agenten. Nicht "ein Design System, das Agenten gebaut haben".
+
+**Gegen wen wir uns stellen:** Oberflächen, die eine KI nach Gefühl baut und sich danach selbst abnimmt. Gratis-Skills geben Stil vor, setzen aber nichts durch.
+
+**Womit wir es belegen:** gezählte Zahlen aus unseren Repos (Stand und Quelle immer dazu), öffentliche Storybooks, ein öffentlicher Prototyp, offen benannte Audit-Befunde. Keine erfundenen Kundenstimmen, keine Bewertungen, solange es keine gibt.
+
+**Ansprache:** "du" für Einzelne auf kette.itdone.de, "ihr" für Firmen auf der Seite zur Überführung.
+
+| Zielgruppe | Botschaft (Arbeitsstand) |
+|---|---|
+| Entwickler mit Claude Code | Ein Loop mit unabhängigen Gates, damit du nicht das einzige Gate bist. |
+| Produktteams und CTOs | Fachkomponenten und Seitenvorlagen mit allen Zuständen. Ihr schließt nur eure Business-Logik an. |
+| Designer im Produktteam | Figma und Code aus einer Quelle, mit gleichen Namen an jeder Station. |
+| Agenturen | Themes statt Neubau je Kundenmarke. |
+| Firmen mit bestehendem System | Schon ein Design System? Wir vernetzen es. |
+
+**Was wir ehrlich dazusagen:** kein Nachweis nach BFSG oder BITV, Agenten nur mit Claude Code, beim Paket kein persönlicher Support.

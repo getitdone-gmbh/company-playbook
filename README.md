@@ -27,6 +27,17 @@ Get IT Done GmbH
     └── coldcall.zero    · Sales-CRM und Kundengewinnung
 ```
 
+**Vorschlag ([ADR 0003](./decisions/0003-die-kette-als-fundament.md), noch nicht entschieden):** Neben WERK und ZERO führen wir eine Ebene **Fundament** direkt unter Get IT Done. Dort liegt **Die Kette**, unsere Design-System-Infrastruktur. Sie trägt workload.zero und wird zugleich eigenständig verkauft.
+
+```text
+Get IT Done GmbH
+│
+├── WERK
+├── ZERO
+└── Fundament (Vorschlag)
+    └── Die Kette · Design-System-Infrastruktur, verkettet von Agenten
+```
+
 **Unser Leitgedanke:** Gemeinsames Unternehmen und gemeinsame Technologie – aber getrennte Märkte, Botschaften und Vertriebssysteme.
 
 ---
@@ -40,6 +51,7 @@ Get IT Done GmbH
 | WERK Cloud | <https://itdone.cloud> |
 | workload.zero (Suite) | workloadzero.de, bis zur Umstellung <https://workbase.itdone.de> |
 | backoffice.zero · workstream.zero · vacancy.zero · jobsearch.zero · coldcall.zero | jeweils `<name>zero.de` (in Vorbereitung) |
+| Die Kette | <https://kette.itdone.de>, Überführung unter <https://kette.itdone.de/ueberfuehrung> |
 
 ## Design-Ressourcen (Figma)
 
@@ -47,6 +59,8 @@ Get IT Done GmbH
 |---|---|---|
 | Design Tokens | Figma-Variablen (Light/Dark), Sync mit dem Token-Repo | <https://www.figma.com/design/j2RxwrgeeDp9MWTEElzKm3/Design-Tokens> |
 | Component Library („🚧 GetITDone-Basic") | Komponenten-Specs, konsumiert das Token-File | <https://www.figma.com/design/bzBnRLfRJNknGg9UYJIHb0/%F0%9F%9A%A7-GetITDone-Basic> |
+
+Öffentliche Storybooks und Prototyp der Kette: [components.itdone.de](https://components.itdone.de) (Komponenten), [zero.itdone.de](https://zero.itdone.de) (Fachkomponenten), [zero-pages.itdone.de](https://zero-pages.itdone.de) (Seitenvorlagen), [zero-design.itdone.de](https://zero-design.itdone.de) (Prototyp workload.zero).
 
 Details zum Design-System in [design/README.md](./design/README.md).
 
@@ -69,6 +83,7 @@ Details zum Design-System in [design/README.md](./design/README.md).
 - [WERK Cloud](./products/werk-cloud/) – unsere sichere Betriebsplattform für WERK-Produkte
 - [WERK Einsatz](./products/werk-einsatz/) – Service- und Einsatzmanagement (in Validierung)
 - [workload.zero](./products/workload-zero/) · modulare Business-Suite mit fünf .zero-Produkten
+- [Die Kette](./products/die-kette/) · Design-System-Infrastruktur, verkettet von Agenten (Einordnung vorgeschlagen)
 
 ### 🚀 [`go-to-market/`](./go-to-market/) – Markt & Vertrieb
 - [Markt- und Vertriebslogik](./go-to-market/README.md)
