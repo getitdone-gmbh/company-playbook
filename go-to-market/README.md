@@ -1,20 +1,20 @@
 # Go-to-Market
 
-Wie wir unsere beiden Produktwelten in den Markt bringen – sowie unsere Positionierung, Website-Architektur und die Rolle unserer Dienstleistungen.
+Wie wir unsere drei Produktwelten in den Markt bringen – sowie unsere Positionierung, Website-Architektur und die Rolle unserer Dienstleistungen.
 
 ## Dokumente
 
 | Dokument | Inhalt |
 |---|---|
-| [Marketingpositionierung](./marketing-positionierung.md) | Unsere Kernbotschaften für Get IT Done, WERK und ZERO (workload.zero) |
-| [Website-Architektur](./website-architektur.md) | Wie wir unsere drei Auftritte strukturieren |
+| [Marketingpositionierung](./marketing-positionierung.md) | Unsere Kernbotschaften für Get IT Done, WERK, ZERO (workload.zero) und KETTE |
+| [Website-Architektur](./website-architektur.md) | Wie wir unsere Auftritte strukturieren |
 | [Unsere Services](./services.md) | Unsere produktnahen und produktisierten Dienstleistungen |
 
 ---
 
-## Zwei getrennte Vertriebswelten
+## Drei getrennte Vertriebswelten
 
-Wir führen WERK und ZERO mit **getrennten Marketing-Kennzahlen**.
+Wir führen WERK, ZERO und KETTE mit **getrennten Marketing-Kennzahlen**. Getrennte Märkte, Botschaften und Vertriebssysteme.
 
 ### WERK: Enterprise- und Mittelstandsvertrieb
 
@@ -31,3 +31,11 @@ Wir führen WERK und ZERO mit **getrennten Marketing-Kennzahlen**.
 **Unsere Kanäle:** SEO je Produkt-Domain · Google Search Ads · Freelancer-Plattformen · Partnerschaften mit Vermittlern · Steuerberater- und Buchhaltungs-Communities · LinkedIn- und YouTube-Inhalte · Empfehlungsprogramme · Templates und kostenlose Tools · Vergleichsseiten
 
 **Unsere Kennzahlen:** Website-Traffic · Registrierungen · Aktivierungsrate · Trial-zu-Paid-Quote · Kundenakquisitionskosten · monatlicher Umsatz pro Nutzer · Kündigungsrate · Supportkosten · Referral-Rate · Cross-Selling-Rate zwischen den .zero-Produkten
+
+### KETTE: Self-Service für Menschen, die Oberflächen bauen
+
+**So sieht es bei uns aus:** Pakete zum Selbstnutzen (Die Kette für eine Person oder ein Team, Agenten-Pack, Design-Review-Pack) · Einzelne: Nutzer und Käufer identisch, Kauf per Karte · Teams und Agenturen: Entscheidung im Team, öffentliche Storybooks und Prototyp zum Weiterreichen · Überführung bestehender Design Systems als Dienstleistung auf Anfrage, immer beginnend mit der Bestandsaufnahme · beim Paket kein persönlicher Support
+
+**Unsere Kanäle:** Verkaufsseite mit Warteliste auf kette.itdone.de · öffentliche Storybooks und Prototyp als Schaufenster · Entwickler-Communities rund um Claude Code · Verzeichnisse und Marktplätze für Claude-Code-Erweiterungen · LinkedIn und X mit gezählten Belegen · warmes Netzwerk und Empfehlungen · für die Überführung: direkte, warme Ansprache von Firmen mit bestehendem Design System
+
+**Unsere Kennzahlen:** Besucher der Verkaufsseite · Wartelisten-Eintragungen · Verkäufe je Paket · Aufstieg von kleinen Paketen zu Die Kette · Anfragen und Bestandsaufnahmen zur Überführung · Rückmeldungen und Erstattungen

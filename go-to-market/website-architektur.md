@@ -1,6 +1,6 @@
 # Website-Architektur
 
-So strukturieren wir unsere drei Auftritte.
+So strukturieren wir die Auftritte von Get IT Done und unseren drei Marken.
 
 ## Get IT Done
 
@@ -11,11 +11,12 @@ Unsere Hauptnavigation:
 - Unternehmen
 - WERK
 - workload.zero
+- KETTE
 - Leistungen
 - Referenzen
 - Kontakt
 
-Auf der Startseite machen wir beide Produktwelten direkt sichtbar.
+Auf der Startseite machen wir alle drei Produktwelten direkt sichtbar.
 
 ## WERK
 
@@ -64,9 +65,9 @@ Navigation der Suite-Website:
 
 Jede Produkt-Landingpage führt mit dem Problem, das das Produkt auf null bringt, verweist auf die Suite ("part of workload.zero") und hat einen eigenen Testzugang. Themen wie E-Rechnung, DATEV und Freelancer-CV bekommen eigene SEO-Seiten unter dem jeweiligen Produkt.
 
-## Die Kette (Fundament, Vorschlag)
+## KETTE (Die Kette)
 
-Einordnung als Vorschlag in [ADR 0003](../decisions/0003-die-kette-als-fundament.md). Die Kette läuft auf Subdomains von itdone.de, nicht auf eigenen Domains. Das unterstreicht den Absender Get IT Done.
+Eigene Marke seit [ADR 0003](../decisions/0003-kette-eigene-marke.md). Der Auftritt läuft heute auf Subdomains von itdone.de. Ob KETTE eigene Domains bekommt, klären wir mit der Markenprüfung.
 
 | Domain | Rolle |
 |---|---|
@@ -87,6 +88,6 @@ Navigation der Verkaufsseite:
 - Überführung
 - FAQ
 
-Die Storybooks und der Prototyp sind ohne Login erreichbar. Sie dienen als nachprüfbarer Beleg und lassen sich im Team weiterreichen. Alle Oberflächen zeigen fiktive Beispieldaten.
+Die Storybooks und der Prototyp sind das Schaufenster von KETTE. Sie sind ohne Login erreichbar, dienen als nachprüfbarer Beleg und lassen sich im Team weiterreichen. Alle Oberflächen zeigen fiktive Beispieldaten.
 
-**Verknüpfung mit den anderen Auftritten:** Die .zero-Landingpages verkaufen workload.zero und verweisen nicht aktiv auf Die Kette. Auf itdone.de passt die Überführung unter Leistungen, weil dort die Firma verkauft wird.
+**Verknüpfung mit den anderen Auftritten:** Die .zero-Landingpages verkaufen workload.zero und verweisen nicht aktiv auf KETTE. Auf itdone.de führt KETTE als eigene Produktwelt in der Hauptnavigation, die Überführung erscheint zusätzlich unter Leistungen.

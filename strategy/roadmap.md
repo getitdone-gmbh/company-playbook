@@ -6,12 +6,12 @@ Unser Handlungsplan in fünf Phasen, unsere Prioritäten und das Gesamtbild.
 
 ### Phase 1: Marken und Botschaften schärfen
 
-1. Wir dokumentieren WERK und ZERO (workload.zero, ersetzt WORK, siehe ADR 0002) als verbindliche Produktwelten.
+1. Wir dokumentieren WERK, ZERO (workload.zero, ersetzt WORK, siehe ADR 0002) und KETTE (siehe ADR 0003) als verbindliche Produktwelten.
 2. Wir legen Claims und Kernbotschaften fest.
 3. Wir definieren Designsysteme.
 4. Wir legen die Absenderlogik „by Get IT Done" fest.
 5. Wir prüfen Domains und Produktnamen.
-6. Wir richten die Get-IT-Done-Website auf die zwei Produktwelten aus.
+6. Wir richten die Get-IT-Done-Website auf die drei Produktwelten aus.
 
 ### Phase 2: WERK Agent kommerzialisieren
 
@@ -43,14 +43,15 @@ Unser Handlungsplan in fünf Phasen, unsere Prioritäten und das Gesamtbild.
 7. Self-Service-Onboarding optimieren und Preisbereitschaft je Paket testen
 8. Aktivierung, Cross-Selling zwischen den Produkten und Kündigungsrate messen
 
-### Phase 4a: Die Kette einführen (Vorschlag)
+### Phase 4a: KETTE als eigene Marke einführen
 
-1. Einordnung als Fundament unter Get IT Done entscheiden ([ADR 0003](../decisions/0003-die-kette-als-fundament.md))
+1. KETTE als eigene Marke mit eigenem Markt, eigener Botschaft und eigenem Vertrieb aufstellen ([ADR 0003](../decisions/0003-kette-eigene-marke.md))
 2. Warteliste auf kette.itdone.de bis zum Verkaufsstart führen
-3. Verkaufsstart am 01.11.2026: Die Kette, Team und kleine Pakete
+3. Verkaufsstart am 01.11.2026: Die Kette (eine Person / Team), Agenten-Pack und Design-Review-Pack
 4. Überführung bestehender Design Systems auf Anfrage anbieten, immer beginnend mit der Bestandsaufnahme
 5. öffentliche Storybooks und den Prototyp als Beleg aktuell halten
-6. erste Verkäufe, Anfragen und Rückmeldungen messen, bevor wir weitere Angebote aus der Kette ableiten
+6. erste Verkäufe, Anfragen und Rückmeldungen messen, bevor wir weitere KETTE-Produkte ableiten
+7. Markenprüfung und Domainstrategie für KETTE klären, Benennung der Storybooks unter KETTE entscheiden (offene Frage in ADR 0003)
 
 ### Phase 5: WERK Einsatz prüfen
 
@@ -77,8 +78,8 @@ workload.zero führen wir mit eigenem Marketingbudget, eigenen Kennzahlen, eigen
 ### Priorität 4: WERK Einsatz erst validieren
 Die Idee ist attraktiv, aber der Markt ist wettbewerbsintensiv. Einen Produktstart machen wir von Kundeninterviews und einem Pilotkunden abhängig.
 
-### Vorschlag: Die Kette als Fundament führen
-Die Kette trägt workload.zero und wird zugleich eigenständig verkauft. Wir schlagen vor, sie nicht in die Prioritätenfolge der Produktwelten einzureihen, sondern als Fundament zu führen: Self-Service mit wenig Personenzeit, die Überführung nur im Rahmen der verfügbaren Kapazität. Entscheidung über [ADR 0003](../decisions/0003-die-kette-als-fundament.md).
+### KETTE als eigenständiges Self-Service-Geschäft führen
+KETTE ist eigene Marke ([ADR 0003](../decisions/0003-kette-eigene-marke.md)). Wir führen sie mit eigenen Kennzahlen und eigenem Vertrieb als Self-Service mit wenig Personenzeit. Die Überführung bieten wir nur im Rahmen der verfügbaren Kapazität an. ZERO läuft auf KETTE und bleibt ihre wichtigste Referenz.
 
 ### Priorität 5: Dienstleistungen produktnah ausrichten
 Beratung, Entwicklung und Betrieb sollen den Verkauf und die Nutzung unserer eigenen Produkte beschleunigen.
@@ -94,7 +95,7 @@ Beratung, Entwicklung und Betrieb sollen den Verkauf und die Nutzung unserer eig
 | **WERK Agent** | sehr hoch | unser Leitprodukt und Türöffner in Produktionsunternehmen |
 | **WERK Cloud** | hoch | technische und kommerzielle Bindungsschicht für unsere WERK-Produkte |
 | **workload.zero** | gut als modulare Suite, ausgehend vom PSA-Kern | eigenständiges digitales Geschäftsmodell unter ZERO; Bedingung: Suite-Versprechen durch durchgängige Abläufe einlösen |
-| **Die Kette** (Vorschlag) | gut als Self-Service-Paket, noch ohne Verkäufe | Fundament unter Get IT Done und Basis von workload.zero; Bedingung: Verkäufe ab 01.11.2026 belegen die Nachfrage, die Überführung bindet nicht mehr Kapazität als verfügbar |
+| **KETTE** | gut als Self-Service-Geschäft, noch ohne Verkäufe | eigene Marke für Design-System-Infrastruktur, ZERO läuft darauf als Referenz; Bedingung: Verkäufe ab 01.11.2026 belegen die Nachfrage, die Überführung bindet nicht mehr Kapazität als verfügbar |
 | **WERK Einsatz** | hoch, aber noch nicht bewiesen | möglicher nächster vertikaler Baustein nach Marktvalidierung |
 
 ---
@@ -106,10 +107,11 @@ Unsere Architektur ist schlüssig:
 ```text
 Get IT Done
 ├── WERK – industrielle Software
-└── ZERO – workload.zero, Business-Suite für Unternehmen, Teams und Professionals
+├── ZERO – workload.zero, Business-Suite für Unternehmen, Teams und Professionals
+└── KETTE · Design-System-Infrastruktur, verkettet von Agenten
 ```
 
-Sie erlaubt uns, zwei unterschiedliche Märkte zu bedienen, ohne Zielgruppen, Botschaften und Vertriebsmodelle miteinander zu vermischen.
+Sie erlaubt uns, drei unterschiedliche Märkte zu bedienen, ohne Zielgruppen, Botschaften und Vertriebsmodelle miteinander zu vermischen.
 
 Unsere stärkste Gesamtpositionierung lautet:
 

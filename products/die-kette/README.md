@@ -1,10 +1,10 @@
 # Die Kette
 
-**Marke:** Get IT Done, Ebene Fundament (Vorschlag, [ADR 0003](../../decisions/0003-die-kette-als-fundament.md)) · **Priorität:** in Einführung, Warteliste · **Website:** [kette.itdone.de](https://kette.itdone.de)
+**Marke:** [KETTE](../../brands/kette/) ([ADR 0003](../../decisions/0003-kette-eigene-marke.md)) · **Priorität:** in Einführung, Warteliste · **Website:** [kette.itdone.de](https://kette.itdone.de)
 
 > **Deine Design-System-Infrastruktur. Verkettet von Agenten.**
 
-Die Kette ist unser Design System für komplexe Business-Apps, verbunden zu einer durchgängigen Kette und gepflegt von Agenten für Claude Code. Sie ist das Fundament, auf dem wir workload.zero bauen, und wir verkaufen sie eigenständig: als Paket zum Selbstnutzen und als Überführung bestehender Design Systems.
+Die Kette ist das zentrale Produkt der Marke KETTE: unser Design System für komplexe Business-Apps, verbunden zu einer durchgängigen Kette und gepflegt von Agenten für Claude Code. Sie ist die Basis, auf der workload.zero läuft, und wir verkaufen sie eigenständig: als Paket zum Selbstnutzen und als Überführung bestehender Design Systems.
 
 ---
 
@@ -123,7 +123,7 @@ Die Überführung ist der einzige Weg mit Personenzeit. Jedes Überführungsproj
 
 ## Wie wir Die Kette einschätzen
 
-Arbeitsstand, Teil des Vorschlags in [ADR 0003](../../decisions/0003-die-kette-als-fundament.md). Noch ohne Verkäufe, also ohne Beleg aus dem Markt.
+Arbeitsstand. Noch ohne Verkäufe, also ohne Beleg aus dem Markt.
 
 | Kriterium | Einschätzung |
 |---|---|
@@ -132,7 +132,7 @@ Arbeitsstand, Teil des Vorschlags in [ADR 0003](../../decisions/0003-die-kette-a
 | Erklärungsbedarf | Paket mittel, Überführung hoch |
 | Vertriebszyklus | Paket kurz (Self-Service), Überführung mittel bis lang |
 | Skalierbarkeit | Paket sehr hoch, Überführung niedrig |
-| Markenfit | hoch zu Get IT Done, Fundament von ZERO, kein Bezug zu WERK |
+| Markenfit | Kernprodukt von KETTE; ZERO läuft darauf und dient als Referenz; kein Bezug zu WERK |
 
 ## Links
 
@@ -145,4 +145,4 @@ Arbeitsstand, Teil des Vorschlags in [ADR 0003](../../decisions/0003-die-kette-a
 | Storybook Seitenvorlagen (Zero Pages) | <https://zero-pages.itdone.de> |
 | Interaktiver Prototyp workload.zero | <https://zero-design.itdone.de> |
 
-Alle Oberflächen dort zeigen fiktive Beispieldaten. Mehr zum Design-System-Fundament in [design/README.md](../../design/README.md).
+Alle Oberflächen dort zeigen fiktive Beispieldaten. Mehr zum Design System in [design/README.md](../../design/README.md).
