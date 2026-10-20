@@ -14,7 +14,7 @@ Für Sichtbarkeit (npm, shadcn-Verzeichnis, Backlinks) wollen wir trotzdem einen
 
 Wir veröffentlichen einen **freien Kern** als eigenes, öffentliches Repo **`getitdone-gmbh/kette-design`** (MIT, npm `@getitdone-gmbh/kette-design`, shadcn-Registry `zero-design.itdone.de/r`).
 
-| | component-library-react | ui |
+| | component-library-react | kette-design |
 |---|---|---|
 | Sichtbarkeit | privat | öffentlich |
 | Lizenz | Die Kette | MIT |
@@ -25,18 +25,18 @@ Wir veröffentlichen einen **freien Kern** als eigenes, öffentliches Repo **`ge
 
 Regeln:
 
-1. **Die Library ist die Quelle.** Komponenten werden nie zuerst in `ui` geändert, sondern in der Library und von dort übernommen.
-2. **Nicht in `ui`:** Fachkomponenten (zero), Seitenvorlagen (zero-pages), Agenten, Regeln und alles mit Kundenbezug. Das bleibt Die Kette.
+1. **Die Library ist die Quelle.** Komponenten werden nie zuerst in `kette-design` geändert, sondern in der Library und von dort übernommen.
+2. **Nicht in `kette-design`:** Fachkomponenten (zero), Seitenvorlagen (zero-pages), Agenten, Regeln und alles mit Kundenbezug. Das bleibt Die Kette.
 3. **Abgleich nach jedem Library-Release:** Komponenten-Schnappschuss, Theme aus den Design-Tokens, Tests, Registry, npm-Release. Ablauf in `getitdone-gmbh/kette-design/docs/MAINTAINING.md`.
 4. **Veröffentlichen auf npm** macht Alex im eigenen Terminal (Bestätigung im Browser).
 
 ## Zuständigkeit
 
-- **Abgleich und Release von `ui`:** Agent `design-system-release-engineer` (Abschnitt "Freier Kern").
-- **Überwachung:** Agent `design-system-atlas-keeper` führt `ui` im Atlas und meldet, wenn es hinter der Library zurückliegt.
+- **Abgleich und Release von `kette-design`:** Agent `design-system-release-engineer` (Abschnitt "Freier Kern").
+- **Überwachung:** Agent `design-system-atlas-keeper` führt `kette-design` im Atlas und meldet, wenn es hinter der Library zurückliegt.
 - **Inhaltliche Grenzen (was frei wird):** Alex.
 
 ## Konsequenzen
 
-- Ohne Abgleich veraltet `ui` mit jedem Library-Release; der Atlas macht das sichtbar.
-- Zwei Komponenten-Bestände bedeuten doppelte Pflege. Deshalb nur Kopie, nie eigene Weiterentwicklung in `ui`.
+- Ohne Abgleich veraltet `kette-design` mit jedem Library-Release; der Atlas macht das sichtbar.
+- Zwei Komponenten-Bestände bedeuten doppelte Pflege. Deshalb nur Kopie, nie eigene Weiterentwicklung in `kette-design`.
