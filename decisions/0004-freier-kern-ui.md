@@ -1,4 +1,4 @@
-# ADR 0004: Freier Kern @getitdone-gmbh/ui neben der privaten Library
+# ADR 0004: Freier Kern @getitdone-gmbh/kette-design neben der privaten Library
 
 - **Status:** akzeptiert
 - **Datum:** 2026-10-19
@@ -12,7 +12,7 @@ Für Sichtbarkeit (npm, shadcn-Verzeichnis, Backlinks) wollen wir trotzdem einen
 
 ## Entscheidung
 
-Wir veröffentlichen einen **freien Kern** als eigenes, öffentliches Repo **`getitdone-gmbh/ui`** (MIT, npm `@getitdone-gmbh/ui`, shadcn-Registry `zero-design.itdone.de/r`).
+Wir veröffentlichen einen **freien Kern** als eigenes, öffentliches Repo **`getitdone-gmbh/kette-design`** (MIT, npm `@getitdone-gmbh/kette-design`, shadcn-Registry `zero-design.itdone.de/r`).
 
 | | component-library-react | ui |
 |---|---|---|
@@ -27,7 +27,7 @@ Regeln:
 
 1. **Die Library ist die Quelle.** Komponenten werden nie zuerst in `ui` geändert, sondern in der Library und von dort übernommen.
 2. **Nicht in `ui`:** Fachkomponenten (zero), Seitenvorlagen (zero-pages), Agenten, Regeln und alles mit Kundenbezug. Das bleibt Die Kette.
-3. **Abgleich nach jedem Library-Release:** Komponenten-Schnappschuss, Theme aus den Design-Tokens, Tests, Registry, npm-Release. Ablauf in `getitdone-gmbh/ui/docs/MAINTAINING.md`.
+3. **Abgleich nach jedem Library-Release:** Komponenten-Schnappschuss, Theme aus den Design-Tokens, Tests, Registry, npm-Release. Ablauf in `getitdone-gmbh/kette-design/docs/MAINTAINING.md`.
 4. **Veröffentlichen auf npm** macht Alex im eigenen Terminal (Bestätigung im Browser).
 
 ## Zuständigkeit
