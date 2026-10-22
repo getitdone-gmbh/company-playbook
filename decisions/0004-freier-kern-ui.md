@@ -6,7 +6,7 @@
 
 ## Kontext
 
-Unsere Komponenten-Library `getitdone-gmbh/component-library-react` ist privat und Teil von Die Kette ([ADR 0003](./0003-kette-eigene-marke.md)). Ihre Lizenz verbietet die Weitergabe, und ihre Git-Geschichte enthält Dateien mit ungeklärter Lizenz.
+Unsere Komponenten-Library `getitdone-gmbh/kette-design-enterprise` ist privat und Teil von Die Kette ([ADR 0003](./0003-kette-eigene-marke.md)). Ihre Lizenz verbietet die Weitergabe, und ihre Git-Geschichte enthält Dateien mit ungeklärter Lizenz.
 
 Für Sichtbarkeit (npm, shadcn-Verzeichnis, Backlinks) wollen wir trotzdem einen Teil frei anbieten, ohne das Bezahlprodukt zu verschenken.
 
